@@ -1,0 +1,22 @@
+{
+  "name": "test-2",
+  "description": "Test plugin 2 for validating marketplace plugin registration",
+  "author": {
+    "name": "Test Author",
+    "email": "test@example.com"
+  },
+  "variables": {
+    "type": "object",
+    "properties": {
+      "api_key": {
+        "type": "string",
+        "description": "API key for authenticating with the service"
+      },
+      "environment": {
+        "type": "string",
+        "description": "Target deployment environment",
+        "enum": ["development", "staging", "production"]
+      }
+    }
+  }
+}

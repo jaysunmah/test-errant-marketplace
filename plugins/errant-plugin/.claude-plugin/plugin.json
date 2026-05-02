@@ -1,0 +1,9 @@
+{
+  "name": "errant-plugin",
+  "description": "Plugin used to reproduce a marketplace-level schema failure. The plugin manifest itself is valid; the corresponding marketplace.json entry contains an invalid author.email.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Errant Test Author",
+    "email": "test@example.com"
+  }
+}

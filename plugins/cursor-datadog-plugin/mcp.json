@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "datadog": {
+      "url": "https://${DD_MCP_DOMAIN}/api/unstable/mcp-server/mcp?toolsets=core,visualizations"
+    }
+  }
+}
