@@ -21,7 +21,9 @@
       "lspServers": {
         "typescript": {
           "command": "typescript-language-server",
-          "args": ["--stdio"],
+          "args": [
+            "--stdio"
+          ],
           "extensionToLanguage": {
             ".ts": "typescript",
             ".tsx": "typescriptreact",
@@ -137,6 +139,17 @@
         "url": "https://github.com/jaysunmah/test-url-plugin.git"
       },
       "homepage": "https://github.com/jaysunmah/test-url-plugin"
+    },
+    {
+      "name": "mega-skills-plugin",
+      "description": "Stress-test plugin with 220 synthetic skills for marketplace parser scale testing",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/mega-skills-plugin",
+      "category": "development",
+      "homepage": "https://github.com/jaysunmah/test-errant-marketplace/tree/main/plugins/mega-skills-plugin"
     },
     {
       "name": "errant-plugin",

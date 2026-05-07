@@ -1,0 +1,9 @@
+{
+  "name": "mega-skills-plugin",
+  "description": "Stress-test plugin with 220 synthetic skills for marketplace parser scale testing",
+  "version": "1.0.0",
+  "author": {
+    "name": "Test Author",
+    "email": "test@example.com"
+  }
+}

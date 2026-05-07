@@ -1,0 +1,16 @@
+---
+name: skill-080
+description: Synthetic test skill 080 used to exercise the marketplace parser at scale. Static markdown only; never invoked at runtime.
+---
+
+# Skill 080
+
+This is synthetic skill number 080 of 220 in mega-skills-plugin. It exists
+solely to stress-test marketplace and plugin-component discovery against a
+plugin with many skills. It does not reference any runtime behavior.
+
+## Index
+
+- ordinal: 80
+- padded: skill-080
+- plugin: mega-skills-plugin
